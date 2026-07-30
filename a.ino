@@ -8,8 +8,8 @@
 #include <Servo.h>
 
 // -------------------- WiFi --------------------
-const char* SSID     = "HONOR Magic6 Lite 5G";
-const char* PASSWORD = "9faf5daa57b9";
+const char* SSID     = "";
+const char* PASSWORD = "";
 
 // Endpoint que recibe el UID y registra intento en BD
 const char* SERVER_URL      = "http://3.214.181.94/insertar_intento_directo.php";
