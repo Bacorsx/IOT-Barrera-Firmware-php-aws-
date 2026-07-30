@@ -15,10 +15,10 @@ if (php_sapi_name() !== 'cli') {
 date_default_timezone_set('America/Santiago');
 
 // --- Credenciales ---
-$DB_HOST    = '127.0.0.1';       // usa 127.0.0.1 (no "localhost") para evitar sockets/SELinux
-$DB_NAME    = 'AppIOT';
-$DB_USER    = 'root';    
-$DB_PASS    = 'Admin12345';     
+$DB_HOST    = '';       
+$DB_NAME    = '';
+$DB_USER    = '';    
+$DB_PASS    = '';     
 $DB_CHARSET = 'utf8mb4';
 
 // --- MySQLi (para scripts existentes que usan mysqli_* o $conn) ---
